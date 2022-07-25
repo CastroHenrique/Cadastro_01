@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Criar Uma Conta</h2>
+        </div>
+
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Nome do usuário</label>
+                <input type="text" name="username" id="username" placeholder="Digite seu nome">
+                <i class=" fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de Erro</small>
+             </div>
+             <div class="form-control">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="Digite seu email">
+                <i class=" fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de Erro</small>
+             </div>
+             <div class="form-control">
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Digite sua senha">
+                <i class=" fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de Erro</small>
+             </div>
+             <div class="form-control">
+                <label for="password-confirmation">Confirmação de Senha</label>
+                <input type="password" name="password-confirmation" id="password-confirmation" placeholder="Digite sua senha novamente">
+                <i class=" fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de Erro</small>
+             </div>
+             <button type="submit" id="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="https://kit.fontawesome.com/f8291d453f.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
